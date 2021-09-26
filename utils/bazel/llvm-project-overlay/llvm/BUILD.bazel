@@ -209,6 +209,7 @@ cc_library(
             "-pthread",
             "-ldl",
             "-lm",
+	    "-lexecinfo",
         ],
     }),
     textual_hdrs = glob([
